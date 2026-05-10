@@ -1,16 +1,40 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+from tkinter import *
+from tkinter.messagebox import *
+from tkinter.filedialog import askopenfilename
+import random
+BACKGROUND_COLOR = "#B1DDC6"
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# ----------------------------- SETUP GUI --------------------------------------------------------
+
+#Window
+window = Tk()
+window.geometry("500x500")
+window.configure(background=BACKGROUND_COLOR)
+
+#Canvas
+canvas = Canvas(width=400, height=400)
+canvas.pack()
+
+
+#Buttons
+RIGHT_BUTTON = PhotoImage(file="./images/right.png")
+WRONG_BUTTON = PhotoImage(file="./images/wrong.png")
+button_x = Button(image=RIGHT_BUTTON, highlightthickness=0)
+button_y = Button(image=WRONG_BUTTON, highlightthickness=0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.mainloop()
+

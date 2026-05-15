@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.14 (day31-flash-cards)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (day31-flash-cards)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (day31-flash-card)" project-jdk-type="Python SDK" />
 </project>
